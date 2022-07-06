@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         // System.out.println("Hello world!");
@@ -20,6 +23,14 @@ public class Main {
             System.out.print(out.val);
             out = out.next;
         }*/
+         String s = "leetcode";
+        List<String> list = new ArrayList<>();
+        list.add("leet");
+        list.add("code");
+
+        Solution_139 solu = new Solution_139();
+
+        System.out.println(solu.wordBreak(s, list));
 
     }
 }
