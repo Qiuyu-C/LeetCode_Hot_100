@@ -23,7 +23,8 @@ public class Main {
             System.out.print(out.val);
             out = out.next;
         }*/
-         String s = "leetcode";
+        /*
+        String s = "leetcode";
         List<String> list = new ArrayList<>();
         list.add("leet");
         list.add("code");
@@ -31,6 +32,13 @@ public class Main {
         Solution_139 solu = new Solution_139();
 
         System.out.println(solu.wordBreak(s, list));
+         */
 
+        // System.out.println((int)Math.sqrt(143));
+
+        int[] nums = new int[]{4,3,1,4,2};
+        Solution_287 solu = new Solution_287();
+        int n = solu.findDuplicate(nums);
+        System.out.println(n);
     }
 }
