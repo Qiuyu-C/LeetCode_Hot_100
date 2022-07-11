@@ -36,9 +36,11 @@ public class Main {
 
         // System.out.println((int)Math.sqrt(143));
 
+        /*
         int[] nums = new int[]{4,3,1,4,2};
         Solution_287 solu = new Solution_287();
         int n = solu.findDuplicate(nums);
         System.out.println(n);
+         */
     }
 }
